@@ -1,0 +1,92 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    overflow: hidden;
+    z-index: 2;
+    background-color: #444444;
+    color: white;
+    padding: 1rem 3rem 2rem 3rem;
+    font-weight: bold;
+    margin: 0px;
+}
+.main-nav ul {
+    list-style-type: none;
+    padding-top: 30px;
+}
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-nav li {
+    display: inline-block;
+    margin: 10px;
+    float: right;
+}
+.main-nav ul li:not(:first-child) a:after {
+    content: "/";
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+.top-logo {
+    float: left;
+    display: inline-block;
+    height: 100px;
+    margin: 0px;
+}
+.staff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.instructors {
+    box-sizing: border-box;
+    width: 25%;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+}
+footer {
+    background: url("../images/footer.jpg");
+    height: 300px;
+    color: white;
+    padding: 4rem 3rem 2rem 3rem;
+}
+.footer-logo {
+    height: 70px;
+}
+.footer-nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.footer-nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+.footer-nav li {
+    margin: 10px;
+    display: inline-block;
+}
+.footer-nav ul li:not(:last-child) a:after {
+    content: "/";
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
