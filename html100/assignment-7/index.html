@@ -6,9 +6,10 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
+        <a href="#main-content" class="hidden">Skip to main content</a>
         <header>
             <nav class="main-nav">
-                <img class="top-logo" src="./images/archeryAcademy-logo-color.png" alt="straight to the point logo">
+                <img class="top-logo" src="./images/archeryAcademy-logo-white.png" alt="straight to the point logo">
                 <ul>
                     <li><a href="#">Waiver</a></li>
                     <li><a href="instructor.html">Meet Our Instructors</a></li>
@@ -17,18 +18,22 @@
                     <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
-        </header>    
-            <div class="homepage-intro">
-                <h1>Straight to the Point Archery</h1>
+        </header>  
+        <h1>Straight to the Point Archery</h1>  
+            <section class="homepage-intro">
+                <div class= "intro-image">
                 <img src="./images/main-archery.jpeg" alt="hands loading an arrow into a bow" height="400">
-                <h2>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
-                </h2>
-            </div>
-        <section class="container">
+                </div>
+                <div class="intro-blurb" id="main-content">
+                <h3>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
+                </h3>
+                </div>
+            </section>
             <h2>Our Classes</h2>
+        <section class="classes">
             <div class="basic">
                 <h3>Basic Archery</h3>  
-                <img src="./images/beginner-archery.jpeg" alt="young child in hat aiming bow and arrow at target" height="400">  
+                <img class="classes-img" src="./images/beginner-archery.jpeg" alt="young child in hat aiming bow and arrow at target">  
                 <p>A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.
                     Equipment will be provided with exception of safety kit.
                     Cost: $120/month
@@ -39,7 +44,7 @@
             </div>
             <div class="intermediate">
                 <h3>Intermediate Archery</h3>
-                <img src="./images/intermediate-archery.jpeg" alt="woman aims bow and arrow at target" height="400">
+                <img class="classes-img" src="./images/intermediate-archery.jpeg" alt="woman aims bow and arrow at target">
                 <p>A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.
                     Equipment will be provided with exception of safety kit.
                     Cost: $120/month
@@ -50,7 +55,7 @@
             </div>
             <div class="advanced">
                 <h3>Advanced Archery</h3>
-                <img src="./images/advanced-archery.jpeg" alt="woman in jersey aims bow and arrow at target" height="400">
+                <img class="classes-img" src="./images/advanced-archery.jpeg" alt="woman in jersey aims bow and arrow at target">
                 <p>After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.
                     Equipment will be provided with exception of safety kit.
                     Cost: $120/month
@@ -60,9 +65,13 @@
                 </p>
             </div>
         </section>
-        <section>
-            <h3>Contact</h3>
-            <div class="location">
+        <iframe src="https://player.vimeo.com/video/207785623?h=e7efc920bb" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <section class="location">
+            <div class="map-image">
+                <img src="images/map.png" alt="image of map of Tacoma" height="400">
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
                 <h4>Address</h4>
                 <p>528 Nock Point Ln Tacoma, WA 98412</p>
                 <h4>Email</h4>
